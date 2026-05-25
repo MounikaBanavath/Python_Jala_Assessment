@@ -1,52 +1,81 @@
-#Arithmetic Operations Program
+# Question 1: Arithmetic Operations Program
 
-def arithmetic(a,b):
-    print("Addition:",a+b)
-    print("Subtraction:",a-b)
-    print("multiplication:",a*b)
-    print("division:",a/b)
-    print("modulus:",a//b)
-arithmetic(5,7)    
+def arithmetic(a, b):
+
+    # Addition
+    print("Addition:", a + b)
+
+    # Subtraction
+    print("Subtraction:", a - b)
+
+    # Multiplication
+    print("Multiplication:", a * b)
+
+    # Division
+    print("Division:", a / b)
+
+    # Modulus/Floor Division
+    print("Modulus:", a // b)
+
+# Function call
+arithmetic(5, 7)
 
 
-#Increment and Decrement Program
 
-num=int(input("enter a number:"))
-num=num+1
-print("After increment:",num)
-num=num-1
-print("After decrement:",num)
+# Question 2: Increment and Decrement Program
+
+# Taking input from user
+num = int(input("Enter a number: "))
+
+# Increment operation
+num = num + 1
+print("After increment:", num)
+
+# Decrement operation
+num = num - 1
+print("After decrement:", num)
 
 
-# Equal and Not Equal Operators
 
-num1=int(input("Enter first number: "))
-num2=int(input("Enter second number: "))
+# Question 3: Equal and Not Equal Operators
 
-if num1==num2:
+# Taking two numbers as input
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+# Checking equality
+if num1 == num2:
     print("Both numbers are equal")
+
 else:
     print("Both numbers are not equal")
 
 
 
-#Relational Operators Program
+# Question 4: Relational Operators Program
 
-a=int(input("Enter first number: "))
-b=int(input("Enter second number: "))
+# Taking input values
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
 
-print("a<b:",a<b)
-print("a<=b:",a<=b)
-print("a>b:",a>b)
-print("a>=b:",a>=b)
+# Relational operator checks
+print("a < b:", a < b)
+print("a <= b:", a <= b)
+print("a > b:", a > b)
+print("a >= b:", a >= b)
 
-#Find Larger and Smaller Number
 
-a=15
-b=8
-if a>b:
-    print("Larger number is:",a)
-    print("Smaller number is:",b)
+
+# Question 5: Find Larger and Smaller Number
+
+a = 15
+b = 8
+
+# Checking larger and smaller number
+if a > b:
+    print("Larger number is:", a)
+    print("Smaller number is:", b)
+
 else:
-    print("Larger number is:",b)
-    print("Smaller number is:",a)
+    print("Larger number is:", b)
+    print("Smaller number is:", a)
