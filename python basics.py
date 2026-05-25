@@ -1,7 +1,10 @@
+#Program to print name using user input
+
 name=input("Enter a name:")
 print("My name is",name)
 
 
+ #Single-line and Multi-line Comments
 
 #This is a single-line comment
 
@@ -12,6 +15,7 @@ multi-line comment
 
 print("hello everyone")
 
+#Define variables for different data types
 
 Name="Mounika"
 Salary=28000
@@ -27,6 +31,7 @@ print("Cgpa:",Cgpa)
 print("Annual_salary:",Annual_salary)
 
 
+#Local and Global Variables
 
 name="mounika"
 
